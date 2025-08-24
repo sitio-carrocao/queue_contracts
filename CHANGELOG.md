@@ -7,6 +7,13 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 
 
 
+## [1.0.7](https://github.com/sitio-carrocao/queue_contracts/compare/v1.0.6...v1.0.7) (2025-08-24)
+
+
+### Bug Fixes
+
+* ajuste na tipagem de informações ([7c4c087](https://github.com/sitio-carrocao/queue_contracts/commit/7c4c087c9efcbf9351ef13b7b833398f64739c08))
+
 ## [1.0.6](https://github.com/sitio-carrocao/queue_contracts/compare/v1.0.5...v1.0.6) (2025-08-24)
 
 
