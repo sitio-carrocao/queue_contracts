@@ -7,6 +7,14 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 
 
 
+## [1.0.4](https://github.com/sitio-carrocao/queue_contracts/compare/v1.0.3...v1.0.4) (2025-08-24)
+
+
+### Bug Fixes
+
+* ajuste no CHANGELOG.md ([0567567](https://github.com/sitio-carrocao/queue_contracts/commit/0567567f898efb7ea457a6bffae33af245b218fc))
+* corrige exportação no arquivo index ([27fd5e0](https://github.com/sitio-carrocao/queue_contracts/commit/27fd5e0c454fbefbd109b7b88d82380cac9acb54))
+
 ## [1.0.3](https://github.com/sitio-carrocao/queue_contracts/compare/v1.0.2...v1.0.3) (2025-08-24)
 
 
