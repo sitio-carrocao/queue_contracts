@@ -1,0 +1,6 @@
+{
+  "*.ts(x)?": [
+    "pnpm lint --fix",
+    "pnpm lint"
+  ]
+}
