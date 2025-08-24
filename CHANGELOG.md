@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/sitio-carrocao/queue_contracts/compare/v1.0.0...v1.0.1) (2025-08-24)
+
+
+### Bug Fixes
+
+* ajustando semantic release ([2958261](https://github.com/sitio-carrocao/queue_contracts/commit/295826106c4121d32e44f21c245704603d915071))
+
 # 1.0.0 (2025-08-24)
 
 
