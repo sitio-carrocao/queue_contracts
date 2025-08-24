@@ -6,15 +6,14 @@ export enum ETypeEventStatus {
 }
 
 export interface IEventTypeSnapshot {
-  description?: string;
+  description: string;
   id: string;
-  name: string;
   status: ETypeEventStatus;
 }
 
 export interface IActorMeta {
   actorId: string;
-  actorType?: 'user' | 'service';
+  actorType: 'user' | 'service';
 }
 
 export interface ILogTypeEventCreateData extends IActorMeta {
