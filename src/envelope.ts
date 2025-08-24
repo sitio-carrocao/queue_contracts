@@ -1,5 +1,5 @@
-import type { IEventDataByName } from './events';
-import type { EventName } from './queues';
+import type { IEventDataByName } from './events.js';
+import type { EventName } from './queues.js';
 
 export interface IEventEnvelope<N extends EventName = EventName> {
   data: IEventDataByName[N];

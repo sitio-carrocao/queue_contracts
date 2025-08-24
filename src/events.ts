@@ -1,4 +1,4 @@
-import type { EventName, QUEUES } from './queues';
+import type { EventName, QUEUES } from './queues.js';
 
 export enum ETypeEventStatus {
   DISABLED = 'disabled',
