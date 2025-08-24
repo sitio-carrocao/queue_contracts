@@ -19,27 +19,28 @@ export interface IActorMeta {
 export interface ILogTypeEventCreateData extends IActorMeta {
   after: IEventTypeSnapshot;
   at: string;
+  entityId: string;
 }
 
 export interface ILogTypeEventUpdateData extends IActorMeta {
   after?: Partial<IEventTypeSnapshot>;
   at: string;
   before?: Partial<IEventTypeSnapshot>;
-  id: string;
+  entityId: string;
 }
 
 export interface ILogTypeEventEnableData extends IActorMeta {
   after: Pick<IEventTypeSnapshot, 'status'>;
   at: string;
   before: Pick<IEventTypeSnapshot, 'status'>;
-  id: string;
+  entityId: string;
 }
 
 export interface ILogTypeEventDisableData extends IActorMeta {
   after: Pick<IEventTypeSnapshot, 'status'>;
   at: string;
   before: Pick<IEventTypeSnapshot, 'status'>;
-  id: string;
+  entityId: string;
 }
 
 export type IEventDataByName = Record<
