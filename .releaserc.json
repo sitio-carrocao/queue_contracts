@@ -5,7 +5,7 @@
     "@semantic-release/release-notes-generator",
     ["@semantic-release/changelog", {
       "changelogFile": "CHANGELOG.md",
-      "changelogTitle": "# Changelog\n\n> ⚠️ Este arquivo é mantido automaticamente pelo semantic-release. Não edite manualmente.\n\n"
+      "changelogTitle": "# Changelog\n\nTodas as mudanças notáveis deste projeto serão documentadas aqui.\n\n> ⚠️ Este arquivo é mantido automaticamente pelo [semantic-release](https://semantic-release.gitbook.io/).\n> Não edite manualmente; as entradas serão adicionadas a cada nova tag (`vX.Y.Z`).\n\n"
     }],
     ["@semantic-release/npm", { "npmPublish": false }],
     ["@semantic-release/git", {
