@@ -1,3 +1,16 @@
+# Changelog
+
+> ⚠️ Este arquivo é mantido automaticamente pelo semantic-release. Não edite manualmente.
+
+
+
+## [1.0.2](https://github.com/sitio-carrocao/queue_contracts/compare/v1.0.1...v1.0.2) (2025-08-24)
+
+
+### Bug Fixes
+
+* ajustando semantic release ([019bbe2](https://github.com/sitio-carrocao/queue_contracts/commit/019bbe252d2428f69852cb6b2db58af03bd826af))
+
 ## [1.0.1](https://github.com/sitio-carrocao/queue_contracts/compare/v1.0.0...v1.0.1) (2025-08-24)
 
 
