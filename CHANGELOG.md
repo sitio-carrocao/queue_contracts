@@ -7,6 +7,13 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 
 
 
+# [1.1.0](https://github.com/sitio-carrocao/queue_contracts/compare/v1.0.8...v1.1.0) (2025-09-11)
+
+
+### Features
+
+* novo evento de criação de negociação pela agência ([d2ab72a](https://github.com/sitio-carrocao/queue_contracts/commit/d2ab72acc760e40ea41d7a73a913afe90269c5cb))
+
 ## [1.0.8](https://github.com/sitio-carrocao/queue_contracts/compare/v1.0.7...v1.0.8) (2025-08-24)
 
 
