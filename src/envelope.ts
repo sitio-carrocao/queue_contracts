@@ -1,4 +1,4 @@
-import type { IEventDataByName } from './events.js';
+import type { IEventDataByName } from './events/shared.js';
 import type { EventName } from './queues.js';
 
 export interface IEventEnvelope<N extends EventName = EventName> {

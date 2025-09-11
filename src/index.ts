@@ -1,16 +1,21 @@
 export { QUEUES } from './queues.js';
 export type { EventName, QueueName } from './queues.js';
 
-export { ETypeEventStatus } from './events.js';
 export type {
   EventData,
   IActorMeta,
   IEventDataByName,
+} from './events/shared.js';
+export type {
   IEventTypeSnapshot,
   ILogTypeEventCreateData,
   ILogTypeEventDisableData,
   ILogTypeEventEnableData,
   ILogTypeEventUpdateData,
-} from './events.js';
+} from './events/events.js';
+export type {
+  ILogNegotiationCreateByAgencyData,
+  INegotiationSnapshot,
+} from './events/negotiations.js';
 
 export type { IEventEnvelope } from './envelope.js';
