@@ -7,6 +7,13 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 
 
 
+# [1.2.0](https://github.com/sitio-carrocao/queue_contracts/compare/v1.1.0...v1.2.0) (2025-09-16)
+
+
+### Features
+
+* adiciona eventos de criaçao/edição de instituição pela agência ([16ce389](https://github.com/sitio-carrocao/queue_contracts/commit/16ce3897a6811e55b2222d06c75a57dd7cb7c059))
+
 # [1.1.0](https://github.com/sitio-carrocao/queue_contracts/compare/v1.0.8...v1.1.0) (2025-09-11)
 
 
