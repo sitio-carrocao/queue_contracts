@@ -5,6 +5,9 @@ export const QUEUES = {
   LOG_TYPE_EVENT_UPDATE: 'log.typeEvent.update.v1',
 
   LOG_NEGOTIATION_CREATE_BY_AGENCY: 'log.negotiation.create_by_agency.v1',
+
+  LOG_INSTITUTION_CREATE_BY_AGENCY: 'log.institution.create_by_agency.v1',
+  LOG_INSTITUTION_UPDATE_BY_AGENCY: 'log.institution.update_by_agency.v1',
 } as const;
 
 export type QueueName = (typeof QUEUES)[keyof typeof QUEUES];

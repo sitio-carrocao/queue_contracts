@@ -17,5 +17,10 @@ export type {
   ILogNegotiationCreateByAgencyData,
   INegotiationSnapshot,
 } from './events/negotiations.js';
+export type {
+  IInstitutionSnapshot,
+  ILogInstitutionCreateByAgencyData,
+  ILogInstitutionUpdateByAgencyData,
+} from './events/institutions.js';
 
 export type { IEventEnvelope } from './envelope.js';

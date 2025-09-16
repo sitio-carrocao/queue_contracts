@@ -5,6 +5,10 @@ import {
   ILogTypeEventEnableData,
   ILogTypeEventUpdateData,
 } from './events';
+import {
+  ILogInstitutionCreateByAgencyData,
+  ILogInstitutionUpdateByAgencyData,
+} from './institutions';
 import { ILogNegotiationCreateByAgencyData } from './negotiations';
 
 export interface IActorMeta {
@@ -22,6 +26,14 @@ export type IEventDataByName = Record<
   Record<
     typeof QUEUES.LOG_NEGOTIATION_CREATE_BY_AGENCY,
     ILogNegotiationCreateByAgencyData
+  > &
+  Record<
+    typeof QUEUES.LOG_INSTITUTION_CREATE_BY_AGENCY,
+    ILogInstitutionCreateByAgencyData
+  > &
+  Record<
+    typeof QUEUES.LOG_INSTITUTION_UPDATE_BY_AGENCY,
+    ILogInstitutionUpdateByAgencyData[]
   >;
 
 export type EventData<N extends EventName> = IEventDataByName[N];
