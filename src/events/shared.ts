@@ -17,15 +17,16 @@ export interface IActorMeta {
 }
 
 export interface IEventDataByName {
-  [QUEUES.LOG_TYPE_EVENT_CREATE]: ILogTypeEventCreateData;
-  [QUEUES.LOG_TYPE_EVENT_UPDATE]: ILogTypeEventUpdateData;
-  [QUEUES.LOG_TYPE_EVENT_ENABLE]: ILogTypeEventEnableData;
-  [QUEUES.LOG_TYPE_EVENT_DISABLE]: ILogTypeEventDisableData;
+  'log.institution.create_by_agency.v1': ILogInstitutionCreateByAgencyData;
+  'log.institution.update_by_agency.v1': ILogInstitutionUpdateByAgencyData;
 
-  [QUEUES.LOG_NEGOTIATION_CREATE_BY_AGENCY]: ILogNegotiationCreateByAgencyData;
+  'log.negotiation.create_by_agency.v1': ILogNegotiationCreateByAgencyData;
 
-  [QUEUES.LOG_INSTITUTION_CREATE_BY_AGENCY]: ILogInstitutionCreateByAgencyData;
-  [QUEUES.LOG_INSTITUTION_UPDATE_BY_AGENCY]: ILogInstitutionUpdateByAgencyData[];
+  'log.typeEvent.create.v1': ILogTypeEventCreateData;
+  'log.typeEvent.disable.v1': ILogTypeEventDisableData;
+
+  'log.typeEvent.enable.v1': ILogTypeEventEnableData;
+  'log.typeEvent.update.v1': ILogTypeEventUpdateData;
 }
 
 export type EventData<N extends EventName> = IEventDataByName[N];
