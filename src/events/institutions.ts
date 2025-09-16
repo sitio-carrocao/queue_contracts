@@ -1,22 +1,22 @@
 import { IActorMeta } from './shared.js';
 
 export interface IInstitutionSnapshot {
-  addressCity: string;
+  addressCity: string | null;
   addressComplement: string | null;
-  addressNeighborhood: string;
-  addressNumber: string;
-  addressPostalCode: string;
-  addressState: string;
-  addressStreet: string;
-  cnpj: string;
-  corporateName: string;
+  addressNeighborhood: string | null;
+  addressNumber: string | null;
+  addressPostalCode: string | null;
+  addressState: string | null;
+  addressStreet: string | null;
+  cnpj: string | null;
+  corporateName: string | null;
   email: string;
   fantasyName: string;
   id: string;
   passwordHash?: string;
   phone: string;
-  responsibleName: string;
-  responsibleRole: string;
+  responsibleName: string | null;
+  responsibleRole: string | null;
 }
 
 export interface ILogInstitutionCreateByAgencyData extends IActorMeta {
