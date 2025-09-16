@@ -1,4 +1,4 @@
-import { EventName, QUEUES } from '../queues';
+import { EventName } from '../queues';
 import {
   ILogTypeEventCreateData,
   ILogTypeEventDisableData,
@@ -13,6 +13,7 @@ import { ILogNegotiationCreateByAgencyData } from './negotiations';
 
 export interface IActorMeta {
   actorId: string;
+  actorName: string;
   actorType: 'user' | 'service';
 }
 
