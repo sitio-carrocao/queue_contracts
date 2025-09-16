@@ -7,6 +7,13 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 
 
 
+# [1.3.0](https://github.com/sitio-carrocao/queue_contracts/compare/v1.2.2...v1.3.0) (2025-09-16)
+
+
+### Features
+
+* adiciona novo campo para o ator ([20c97da](https://github.com/sitio-carrocao/queue_contracts/commit/20c97da067c4531fadfdf8b2595696ed8f8bf25a))
+
 ## [1.2.2](https://github.com/sitio-carrocao/queue_contracts/compare/v1.2.1...v1.2.2) (2025-09-16)
 
 
