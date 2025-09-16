@@ -16,24 +16,16 @@ export interface IActorMeta {
   actorType: 'user' | 'service';
 }
 
-export type IEventDataByName = Record<
-  typeof QUEUES.LOG_TYPE_EVENT_CREATE,
-  ILogTypeEventCreateData
-> &
-  Record<typeof QUEUES.LOG_TYPE_EVENT_UPDATE, ILogTypeEventUpdateData> &
-  Record<typeof QUEUES.LOG_TYPE_EVENT_ENABLE, ILogTypeEventEnableData> &
-  Record<typeof QUEUES.LOG_TYPE_EVENT_DISABLE, ILogTypeEventDisableData> &
-  Record<
-    typeof QUEUES.LOG_NEGOTIATION_CREATE_BY_AGENCY,
-    ILogNegotiationCreateByAgencyData
-  > &
-  Record<
-    typeof QUEUES.LOG_INSTITUTION_CREATE_BY_AGENCY,
-    ILogInstitutionCreateByAgencyData
-  > &
-  Record<
-    typeof QUEUES.LOG_INSTITUTION_UPDATE_BY_AGENCY,
-    ILogInstitutionUpdateByAgencyData[]
-  >;
+export interface IEventDataByName {
+  [QUEUES.LOG_TYPE_EVENT_CREATE]: ILogTypeEventCreateData;
+  [QUEUES.LOG_TYPE_EVENT_UPDATE]: ILogTypeEventUpdateData;
+  [QUEUES.LOG_TYPE_EVENT_ENABLE]: ILogTypeEventEnableData;
+  [QUEUES.LOG_TYPE_EVENT_DISABLE]: ILogTypeEventDisableData;
+
+  [QUEUES.LOG_NEGOTIATION_CREATE_BY_AGENCY]: ILogNegotiationCreateByAgencyData;
+
+  [QUEUES.LOG_INSTITUTION_CREATE_BY_AGENCY]: ILogInstitutionCreateByAgencyData;
+  [QUEUES.LOG_INSTITUTION_UPDATE_BY_AGENCY]: ILogInstitutionUpdateByAgencyData[];
+}
 
 export type EventData<N extends EventName> = IEventDataByName[N];
