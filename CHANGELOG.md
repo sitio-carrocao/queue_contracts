@@ -7,6 +7,13 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 
 
 
+## [1.3.3](https://github.com/sitio-carrocao/queue_contracts/compare/v1.3.2...v1.3.3) (2025-09-16)
+
+
+### Bug Fixes
+
+* ajustes ([96e6f19](https://github.com/sitio-carrocao/queue_contracts/commit/96e6f19e8acc23d30e42720815658f2e888fdf19))
+
 ## [1.3.2](https://github.com/sitio-carrocao/queue_contracts/compare/v1.3.1...v1.3.2) (2025-09-16)
 
 
