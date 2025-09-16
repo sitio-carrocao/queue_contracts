@@ -13,7 +13,7 @@ export interface IInstitutionSnapshot {
   email: string;
   fantasyName: string;
   id: string;
-  passwordHash: string;
+  passwordHash?: string;
   phone: string;
   responsibleName: string;
   responsibleRole: string;
@@ -28,5 +28,6 @@ export interface ILogInstitutionCreateByAgencyData extends IActorMeta {
 export interface ILogInstitutionUpdateByAgencyData extends IActorMeta {
   after: IInstitutionSnapshot;
   at: string;
+  before: IInstitutionSnapshot;
   entityId: string;
 }
