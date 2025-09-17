@@ -18,6 +18,11 @@ export interface IActorMeta {
   actorType: 'user' | 'service';
 }
 
+export interface IFromMeta {
+  from: 'SITIO_CARROCAO';
+  to: string;
+}
+
 export interface IEventDataByName {
   'log.institution.create_by_agency.v1': ILogInstitutionCreateByAgencyData;
   'log.institution.update_by_agency.v1': ILogInstitutionUpdateByAgencyData;

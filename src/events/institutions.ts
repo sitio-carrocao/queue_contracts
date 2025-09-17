@@ -1,4 +1,4 @@
-import { IActorMeta } from './shared.js';
+import { IActorMeta, IFromMeta } from './shared.js';
 
 export interface IInstitutionSnapshot {
   addressCity: string | null;
@@ -32,13 +32,13 @@ export interface ILogInstitutionUpdateByAgencyData extends IActorMeta {
   entityId: string;
 }
 
-export interface IMailInstitutionNotifyWhenAgencyCreateNegotiation {
+export interface IMailInstitutionNotifyWhenAgencyCreateNegotiation
+  extends IFromMeta {
   data: {
-    AGENCIA_PLATAFORMA_URL: string;
     INSTITUICAO_EMAIL: string;
     INSTITUICAO_NOME_FANTASIA: string;
+    INSTITUICAO_PLATAFORMA_URL: string;
     INSTITUICAO_SENHA: string;
   };
   isNewInstitution: boolean;
-  to: string;
 }

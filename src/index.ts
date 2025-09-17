@@ -5,6 +5,7 @@ export type {
   EventData,
   IActorMeta,
   IEventDataByName,
+  IFromMeta,
 } from './events/shared.js';
 export type {
   IEventTypeSnapshot,
