@@ -8,6 +8,9 @@ export const QUEUES = {
 
   LOG_INSTITUTION_CREATE_BY_AGENCY: 'log.institution.create_by_agency.v1',
   LOG_INSTITUTION_UPDATE_BY_AGENCY: 'log.institution.update_by_agency.v1',
+
+  MAIL_INSTITUTION_NOTIFY_WHEN_AGENCY_CREATE_NEGOTIATION:
+    'mail.institution.notify_when_agency_create_negotiation.v1',
 } as const;
 
 export type QueueName = (typeof QUEUES)[keyof typeof QUEUES];
