@@ -1,4 +1,5 @@
 export { QUEUES } from './queues.js';
+
 export type { EventName, QueueName } from './queues.js';
 
 export type {
@@ -7,6 +8,9 @@ export type {
   IEventDataByName,
   IFromMeta,
 } from './events/shared.js';
+
+export type { IMailAgencyNegotiationCreatedData } from './events/agencies/mails.js';
+
 export type {
   IEventTypeSnapshot,
   ILogTypeEventCreateData,
@@ -14,15 +18,19 @@ export type {
   ILogTypeEventEnableData,
   ILogTypeEventUpdateData,
 } from './events/events.js';
+
 export type {
-  ILogNegotiationCreateByAgencyData,
+  ILogNegotiationCreatedByAgencyData,
   INegotiationSnapshot,
 } from './events/negotiations.js';
+
 export type {
   IInstitutionSnapshot,
-  ILogInstitutionCreateByAgencyData,
-  ILogInstitutionUpdateByAgencyData,
-  IMailInstitutionNotifyWhenAgencyCreateNegotiation,
-} from './events/institutions.js';
+  ILogInstitutionCreatedByAgencyData,
+  ILogInstitutionUpdatedByAgencyData,
+  ILogMailNegotiationCreatedByAgencySentToInstitutionData,
+} from './events/institutions/logs.js';
+
+export type { IMailInstitutionNegotiationCreatedByAgencyData } from './events/institutions/mails.js';
 
 export type { IEventEnvelope } from './envelope.js';

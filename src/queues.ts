@@ -4,13 +4,17 @@ export const QUEUES = {
   LOG_TYPE_EVENT_ENABLE: 'log.typeEvent.enable.v1',
   LOG_TYPE_EVENT_UPDATE: 'log.typeEvent.update.v1',
 
-  LOG_NEGOTIATION_CREATE_BY_AGENCY: 'log.negotiation.create_by_agency.v1',
+  LOG_NEGOTIATION_CREATED_BY_AGENCY: 'log.negotiation.created_by_agency.v1',
 
-  LOG_INSTITUTION_CREATE_BY_AGENCY: 'log.institution.create_by_agency.v1',
-  LOG_INSTITUTION_UPDATE_BY_AGENCY: 'log.institution.update_by_agency.v1',
+  LOG_INSTITUTION_CREATED_BY_AGENCY: 'log.institution.created_by_agency.v1',
+  LOG_INSTITUTION_UPDATED_BY_AGENCY: 'log.institution.updated_by_agency.v1',
+  LOG_INSTITUTION_MAIL_NEGOTIATION_CREATED_BY_AGENCY_SENT:
+    'log.institution.mail_negotiation_created_by_agency_sent.v1',
 
-  MAIL_INSTITUTION_NOTIFY_WHEN_AGENCY_CREATE_NEGOTIATION:
-    'mail.institution.notify_when_agency_create_negotiation.v1',
+  MAIL_AGENCY_NEGOTIATION_CREATED: 'mail.agency.negotiation_created.v1',
+
+  MAIL_INSTITUTION_NEGOTIATION_CREATED_BY_AGENCY:
+    'mail.institution.negotiation_created_by_agency.v1',
 } as const;
 
 export type QueueName = (typeof QUEUES)[keyof typeof QUEUES];
