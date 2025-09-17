@@ -21,6 +21,7 @@ export type {
   IInstitutionSnapshot,
   ILogInstitutionCreateByAgencyData,
   ILogInstitutionUpdateByAgencyData,
+  IMailInstitutionNotifyWhenAgencyCreateNegotiation,
 } from './events/institutions.js';
 
 export type { IEventEnvelope } from './envelope.js';

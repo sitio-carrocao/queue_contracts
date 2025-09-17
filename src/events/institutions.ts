@@ -31,3 +31,14 @@ export interface ILogInstitutionUpdateByAgencyData extends IActorMeta {
   before: IInstitutionSnapshot;
   entityId: string;
 }
+
+export interface IMailInstitutionNotifyWhenAgencyCreateNegotiation {
+  data: {
+    AGENCIA_PLATAFORMA_URL: string;
+    INSTITUICAO_EMAIL: string;
+    INSTITUICAO_NOME_FANTASIA: string;
+    INSTITUICAO_SENHA: string;
+  };
+  isNewInstitution: boolean;
+  to: string;
+}
