@@ -7,6 +7,13 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 
 
 
+# [1.4.0](https://github.com/sitio-carrocao/queue_contracts/compare/v1.3.3...v1.4.0) (2025-09-17)
+
+
+### Features
+
+* adicionar evento de email para instituição ([e4f1ea4](https://github.com/sitio-carrocao/queue_contracts/commit/e4f1ea4a3ae4899b16978b8c2711d3c07062b9fb))
+
 ## [1.3.3](https://github.com/sitio-carrocao/queue_contracts/compare/v1.3.2...v1.3.3) (2025-09-16)
 
 
