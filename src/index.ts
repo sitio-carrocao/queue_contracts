@@ -12,17 +12,9 @@ export type {
 export type { IMailAgencyNegotiationCreatedData } from './events/agencies/mails.js';
 
 export type {
-  IEventTypeSnapshot,
-  ILogTypeEventCreateData,
-  ILogTypeEventDisableData,
-  ILogTypeEventEnableData,
-  ILogTypeEventUpdateData,
-} from './events/events.js';
-
-export type {
   ILogNegotiationCreatedByAgencyData,
   INegotiationSnapshot,
-} from './events/negotiations.js';
+} from './events/negotiations/logs.js';
 
 export type {
   IInstitutionSnapshot,
@@ -33,4 +25,4 @@ export type {
 
 export type { IMailInstitutionNegotiationCreatedByAgencyData } from './events/institutions/mails.js';
 
-export type { IEventEnvelope } from './envelope.js';
+export type { IEventEnvelope, EBackend, EFrontend } from './envelope.js';

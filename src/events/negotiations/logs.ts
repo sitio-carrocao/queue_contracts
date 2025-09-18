@@ -1,4 +1,4 @@
-import { IActorMeta } from './shared.js';
+import { IActorMeta } from '../shared.js';
 
 export interface INegotiationSnapshot {
   age: string;
