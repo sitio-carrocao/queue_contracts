@@ -36,7 +36,6 @@ export interface IEventDataByName {
 
   'log.typeEvent.disable.v1': ILogTypeEventDisableData;
   'log.typeEvent.enable.v1': ILogTypeEventEnableData;
-
   'log.typeEvent.update.v1': ILogTypeEventUpdateData;
 
   'mail.agency.negotiation_created.v1': IMailAgencyNegotiationCreatedData;
